@@ -1,0 +1,17 @@
+<div class="container">
+
+	<form class="busca" action="ResultadoPesquisa" method="GET">
+		<div class="row">
+			<div class="form-group input-group ">
+
+				<input name="busca" id="busca" placeholder="PESQUISAR..." type="search" class="form-control pesquisa" autocomplete="off">
+
+				<div class="input-group-append">
+					<button class="input-group-text"><i class="fa fa-search"></i></button>
+				</div>
+
+			</div>
+		</div>
+	</form>
+
+</div>

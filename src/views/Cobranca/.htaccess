@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteBase /Cobranca/
+
+RewriteCond %{THE_REQUEST} /Cobranca/src/views/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!public/).*)$ /Cobranca/src/views/$1 [L,NC]
+
+
+
+

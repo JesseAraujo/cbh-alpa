@@ -1,0 +1,159 @@
+[11-Aug-2020 13:36:07 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/cbhalpac/public_html/src/controller/connect/connect.php on line 15
+[11-Aug-2020 13:36:07 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/cbhalpac/public_html/src/controller/connect/connect.php on line 16
+[11-Aug-2020 13:36:07 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/cbhalpac/public_html/src/controller/connect/connect.php on line 21
+[11-Aug-2020 14:02:50 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/cbhalpac/public_html/src/controller/connect/connect.php on line 15
+[11-Aug-2020 14:02:50 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/cbhalpac/public_html/src/controller/connect/connect.php on line 16
+[11-Aug-2020 14:02:50 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/cbhalpac/public_html/src/controller/connect/connect.php on line 21
+[15-Aug-2020 21:01:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cbhalpac/public_html/src/components/pesquisaAgenda.php:13) in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 13
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 43
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[15-Aug-2020 21:01:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 95
+[18-Aug-2020 18:24:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cbhalpac/public_html/src/components/pesquisaAgenda.php:13) in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 13
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 43
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[18-Aug-2020 18:24:40 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 95
+[05-Sep-2020 15:56:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cbhalpac/public_html/src/components/pesquisaAgenda.php:13) in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 13
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 43
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[05-Sep-2020 15:56:07 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 95
+[08-Sep-2020 18:34:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cbhalpac/public_html/src/components/pesquisaAgenda.php:13) in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 13
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 43
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[08-Sep-2020 18:34:19 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 95
+[14-Sep-2020 17:06:27 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/cbhalpac/public_html/src/controller/connect/connect.php on line 15
+[14-Sep-2020 17:06:28 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/cbhalpac/public_html/src/controller/connect/connect.php on line 16
+[14-Sep-2020 17:06:28 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/cbhalpac/public_html/src/controller/connect/connect.php on line 21
+[21-Sep-2020 13:41:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cbhalpac/public_html/src/components/pesquisaAgenda.php:13) in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 13
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 43
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[21-Sep-2020 13:41:27 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 95
+[09-Oct-2020 10:44:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cbhalpac/public_html/src/components/pesquisaAgenda.php:13) in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 13
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 43
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[09-Oct-2020 10:44:52 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 95
+[12-Oct-2020 08:44:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cbhalpac/public_html/src/components/pesquisaAgenda.php:13) in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 13
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 43
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[12-Oct-2020 08:44:56 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 95
+[26-Oct-2020 13:56:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cbhalpac/public_html/src/components/pesquisaAgenda.php:13) in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 13
+[26-Oct-2020 13:56:34 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[26-Oct-2020 13:56:34 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[26-Oct-2020 13:56:34 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[26-Oct-2020 13:56:34 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[26-Oct-2020 13:56:35 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[26-Oct-2020 13:56:35 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[26-Oct-2020 13:56:35 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[26-Oct-2020 13:56:35 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[26-Oct-2020 13:56:35 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 43
+[26-Oct-2020 13:56:35 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[26-Oct-2020 13:56:35 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[26-Oct-2020 13:56:35 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[26-Oct-2020 13:56:35 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[26-Oct-2020 13:56:35 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 95
+[29-Oct-2020 13:36:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cbhalpac/public_html/src/components/pesquisaAgenda.php:13) in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 13
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 43
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[29-Oct-2020 13:36:54 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 95
+[13-Nov-2020 10:53:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cbhalpac/public_html/src/components/pesquisaAgenda.php:13) in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 13
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 19
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 35
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 43
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 86
+[13-Nov-2020 10:53:14 UTC] PHP Notice:  Undefined variable: busca in /home/cbhalpac/public_html/src/controller/ResultadoPesquisa.php on line 95

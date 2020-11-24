@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'LiberationSans-Bold';
+    src: url('../fonts/LiberationSans-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LiberationSans-Regular';
+    src: url('../fonts/LiberationSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+

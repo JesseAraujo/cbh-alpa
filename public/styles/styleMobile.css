@@ -1,0 +1,95 @@
+@media only screen and (max-width: 724px) {
+
+    
+    .content {
+        width: 90%;
+    }
+    
+    .topolabel { 
+        text-align: center;
+    } 
+
+    .acessibilidade .acessibilidade-button{   
+        left: 20px;    
+    } 
+    
+    nav {
+        z-index: 999;
+    }
+
+    .nav .navbar-nav {        
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .nav .nav-item:hover { 
+        border-bottom:none;
+        color: var(--color-active); 
+    }
+
+    .slide {
+        display: none;
+    }
+
+    .card-body,
+    .documentos .card .card-body {
+        height: auto;
+    }
+
+    .busca {	
+        margin: 30px 0;
+    }
+
+    .bntLateral {
+        margin-bottom: 50px;
+    }
+
+    .col-sm-4,
+    .col-sm-6,
+    .col-sm-7 {
+        margin-bottom: 20px;
+    }
+        
+
+   .not a{
+        right: 0;
+    }
+    
+    .footer {
+        width: 100%;
+        height: auto;
+
+        padding-bottom: 50px;
+    }
+
+ 
+    .footer span {        
+        text-align: center;   
+    }
+
+    .social {        
+        top: -25px;
+        right: 5%;
+    }
+
+    .menuFooter {
+        text-align: center;
+    }
+
+    .menuFooter h2{
+        margin:  20px 0 12px;
+    }
+
+    .menuFooter a {
+        font-size: 1.2rem;
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    #subirTopo {
+        z-index: 9999;
+    }
+   
+}

@@ -1,0 +1,304 @@
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+                                                                    STYLE COMPUTER
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+*/
+
+@media only screen and (max-width: 949px){
+
+    /*
+    -------------------------------------------------------------------------------
+    ICONES
+    -------------------------------------------------------------------------------
+    */    
+        .icone {
+            padding-left: 22px;
+            background: no-repeat center center;
+            text-decoration: none;
+            display: inline-block;
+            margin-right: 1em;
+            padding-right: 32px;
+            min-height: 16px; /* altura dos ícones */
+            text-transform: uppercase;
+            font-size: 15px;
+        }    
+    
+        .icone[href$='.pdf'], .icone[href$='.PDF'] {
+            background-image: url(../img/icon/acrobat.png);
+        }
+    
+    
+        .icone[href$='.doc'], .icone[href$='.docx'] {
+            background-image: url(../img/icon/page_white_word.png);
+        }
+    
+        .icone[href$='.xls'] {
+            background-image: url(../img/icon/page_white_excel.png);
+        }
+    
+        .icone[href$='.pptx'] {
+            background-image: url(../img/icon/page_white_powerpoint.png);
+        }
+    
+        .icone[href$='.rar'] {
+            background-image: url(../img/icon/rar.png);
+        }
+    
+        .icone[href$='.png'] {
+            background-image: url(../img/icon/img.png);
+        }
+    
+        .icone[href$='.jpg'] {
+            background-image: url(../img/icon/img.png);
+        }
+
+
+        .download {
+            padding-left: 22px;
+            background: no-repeat center center;
+            text-decoration: none;
+            display: inline-block;
+            margin-right: 1em;
+            padding-right: 32px;
+            min-height: 16px; /* altura dos ícones */
+            text-transform: uppercase;
+            font-size: 15px;
+        }   
+
+        .download{
+            background-image: url(../img/icon/down.png);
+        }
+
+
+    /*
+    -------------------------------------------------------------------------------
+    NAVBAR
+    -------------------------------------------------------------------------------
+    */  
+        .navbar{            
+            height: auto;
+            background-color: rgb(241, 241, 241);
+        }
+
+        .navbar a{
+            color: #0A1B2A;
+            text-transform: uppercase;
+            font-family: LiberationSans-Regular;
+            font-size: 14px; 
+            padding-top: 10px;
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        .navbar a:hover{
+            color: #A4A4A4;
+        }        
+
+
+    /*
+    -------------------------------------------------------------------------------
+    MENU FIXO
+    -------------------------------------------------------------------------------
+    */  
+        .menu-fixo {
+            position: fixed;
+            top: 0;
+            z-index: 99;
+            width: 100%;
+            height: 100px;
+            background-color: #0A1B2A;
+            color: #F4F4F4;
+            padding-top: 40px;
+            transition: linear;
+            transition-duration: 0.1s;            
+            box-shadow: 0 2px 3px rgba(0,0,0,0.3);            
+        }
+
+        .menu-fixo a{
+            color: #ffffff;
+            text-transform: uppercase;
+            font-family: LiberationSans-Regular;
+            font-size: 14px;
+        }
+
+        .menu-fixo a:hover{
+            color: #A4A4A4;
+        }
+
+
+    /*
+    -------------------------------------------------------------------------------
+    HEADER
+    -------------------------------------------------------------------------------
+    */         
+
+        .header{
+            background-image: url(../../src/assets/img/header.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;            
+            height: 300px;
+            width: 100%;
+        }
+
+        .header .titulo{
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 48px;
+            font-family: LiberationSans-Bold;
+            line-height: 20px;
+            color: #ffffff;
+            padding-top: 200px;
+            text-align: center;
+        }
+
+        .header .subtitulo{
+            font-size: 9px;
+            margin-bottom: 50px;
+            font-family: LiberationSans-Regular;
+            text-align: center;            
+        }
+
+    /*
+    -------------------------------------------------------------------------------
+    COBRANÇA
+    -------------------------------------------------------------------------------
+    */ 
+        .cobranca{
+            padding-top: 60px;
+            text-align: justify;
+        }
+
+        .cobranca .titulo{
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 22px;
+            font-family: LiberationSans-Bold;            
+            color: #0A1B2A;
+            text-align: center;
+        }
+
+
+    /*
+    -------------------------------------------------------------------------------
+    ITEM
+    -------------------------------------------------------------------------------
+    */ 
+        .item{
+            list-style:none;
+            list-style-image:url(../../src/assets/img/icon/item.png);
+            padding-left: 20px;	
+            line-height: 15px;	
+        }
+
+        .item li{
+            margin-bottom: 15px;
+        } 
+
+
+    /*
+    -------------------------------------------------------------------------------
+    MAPA SITE
+    -------------------------------------------------------------------------------
+    */       
+        .mapaSite{
+            background-color: rgb(250, 250, 250);
+            margin-top: 30px;
+            font-size: 10px;
+            text-transform: uppercase;
+        }
+
+        .mapaSite li .breadcrumb-item{
+            color: rgb(28, 49, 68);
+        }
+    /*
+    -------------------------------------------------------------------------------
+    PERGUNTAS
+    -------------------------------------------------------------------------------
+    */ 
+    .accordion .card-header{
+        background-color: #F4F4F4;
+        font-family: LiberationSans-regular;
+        text-align: center; 
+    }    
+
+    .accordion button{
+            background-color: #F4F4F4;
+            color: rgb(28, 49, 68);
+            text-decoration:none;
+        }
+    
+    /*
+    -------------------------------------------------------------------------------
+    CONTATO
+    -------------------------------------------------------------------------------
+    */ 
+        form{
+            margin-top: 30px;
+        }
+        
+        form input[type="text"]{
+            margin-bottom: 20px;
+        }
+
+        .enviar{
+            margin-top: 20px;
+            width: 100%;
+            border: none;
+            height: 40px;
+            color: #ffffff;
+            background-color: #404f6c;
+        }     
+        
+        .enviar:hover{
+            background-color: #1e262e; 
+        } 
+
+
+        .cobBotoes{
+            margin-top: 100px;            
+        }  
+
+        .cobBotoes .btn{
+            margin-top: 10px;
+            width: 100%;
+            border: none;
+            height: 40px;
+            color: #ffffff;
+            background-color: #404f6c;
+            border-radius: 0;
+            font-size: 13px;
+            text-transform: uppercase;
+        }     
+        
+        .cobBotoes .btn:hover{
+            background-color: #1e262e; 
+        }
+
+
+        
+        
+    /*
+    -------------------------------------------------------------------------------
+    FOOTER
+    -------------------------------------------------------------------------------
+    */       
+    
+        .footer{
+            margin-top: 150px;
+            width: 100%;
+            height: 200px;
+            padding-top: 70px;
+            background-color: #ffffff;
+            border-top: 1px solid #f3f3f3; 
+            text-align: center;
+        }
+
+        .copyright .dev {
+            font-size: 7px;  
+            text-decoration: none; 
+            color: #0B243B;    
+        }
+
+
+}
