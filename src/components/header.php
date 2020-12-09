@@ -21,8 +21,6 @@
   <link rel="stylesheet" href="public/styles/style.css">
   <link rel="stylesheet" href="public/styles/styleMobile.css">
 
-  <link rel="stylesheet" href="public/styles/fonts.css">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
   <title>CBH-ALPA | Comitê da Bacia Hidrográfica do Alto Paranapanema</title>
@@ -34,13 +32,31 @@
     <i class="fa fa-arrow-up" aria-hidden="true"></i>
   </a>
 
-  <section>
-    <div class="acessibilidade">
-      <div class="container">
-        <div class="acessibilidade-button">
-          <button onClick="fonte('a');">A+</button>
-          <button onClick="fonte('d');">A-</button>
+  <header>
+    <div class="container">
+
+      <div class="header">
+        <a href="/">
+          <img src="src/assets/images/logonav.png" width="80" height="50" alt="">
+        </a>
+
+        <?php
+        require '../components/pesquisa.php';
+        ?>
+
+        <div class="acessibilidade">
+          <div class="acessibilidade-button">
+            <button onClick="fonte('a');">A+</button>
+            <button onClick="fonte('d');">A-</button>
+          </div>
         </div>
       </div>
+
+
     </div>
-  </section>
+
+    <?php
+    require '../components/nav.php';
+    ?>
+
+  </header>

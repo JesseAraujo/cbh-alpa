@@ -3,9 +3,6 @@
   <nav class="navbar navbar-expand-lg navbar-light">
 
     <div class="container">
-      <a class="navbar-brand" href="/">
-        <img src="src/assets/images/logonav.png" width="90" height="60" alt="">
-      </a>
 
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="border:none;">
         <span class="navbar-toggler-icon"></span>

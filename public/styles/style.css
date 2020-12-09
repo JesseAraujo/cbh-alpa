@@ -165,24 +165,38 @@ ICONES
         background-image: url(../../src/assets/images/icon/down.png);
     }
 
+    .content {
+        margin-top: 130px;
+    }
+
     
 /*
 -------------------------------------------------------------------------------
 TOP
 -------------------------------------------------------------------------------
-*/    
-    .acessibilidade{
+*/  
+
+    header{
         z-index: 999;
         width: 100%;
-        height: 40px;    
+
+        padding-top: 30px;
+
         position: fixed; 
-        background-color: var(--color-text-white);
+        background-color: var(--color-bg-primary);
+
+        top: 0;
+    }
+
+    header .header {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
     }
 
     .acessibilidade .acessibilidade-button{        
         color: var(--color-text-secundary);
         position: absolute;
-        right: 20%;    
+        right: 21%;    
     }    
 
     .acessibilidade .acessibilidade-button button{        
@@ -227,8 +241,7 @@ NAVBAR
         border-bottom: 1px solid #f3f3f3; 
         box-shadow: 0 1px 2px rgba(0,0,0,0.1);
 
-        padding-top:40px; 
-        padding-bottom:40px; 
+        padding-bottom:20px; 
 
         text-transform: uppercase; 
 
@@ -246,27 +259,13 @@ NAVBAR
 
     .nav .nav-item {  
         color: var(--color-text-primary);
-        height: 45px;
-        padding: 0 10px;
-
-        position: relative;
-        top: 50px;              
+        padding: 0 4px;            
     }
 
     .nav .nav-item:hover { 
-        border-bottom: 2px solid var(--color-footer) ;
         color: var(--color-active); 
     }
 
-    .nav .navbar-brand {
-        position: relative;
-        top: 10px; 
-    }
-
-    .nav .navbar-brand:hover {
-        opacity: 0.7;
-        transition: 400ms;
-    }
 
 /*
 -------------------------------------------------------------------------------
@@ -277,8 +276,10 @@ BREADCRUMB
         text-transform: uppercase;
         font-size: 1rem;
 
-        margin-bottom: 60px;
+        margin-bottom: 40px;
         background-color: var(--color-bg-secundary);
+
+        padding-top: 20px;
     }
 
     .mapaSite a{
@@ -295,18 +296,6 @@ BREADCRUMB
         font-family: var(--font-secondaray-bold);
     }
 
-
-/*
--------------------------------------------------------------------------------
-CONTENT
--------------------------------------------------------------------------------
-*/ 
-    .content {
-        margin: 170px auto 50px;
-        width: 60%;
-    }
-
-
 /*
 -------------------------------------------------------------------------------
 CAROUSEL
@@ -314,25 +303,21 @@ CAROUSEL
 */    
     .carousel{
         margin-bottom: 60px; 
-        position: relative;    
+        position: relative;         
     }
 
-    .carousel-inner img {
+    .carousel .carousel-inner img {
         width: 100%;       
     }  
 
     .carousel .carousel-indicators li{
-        background-color: var(--color-text-secundary);
+        background-color: var(--color-bg-primary);
 
         position: relative;
-        bottom: -50px;
     }
 
     .carousel .carousel-indicators li.active{
-        background-color: var(--color-bg-button);
-
-        position: relative;
-        bottom: -50px;
+        background-color: var(--color-bg-secundary);
     }
 
     .carousel button.carousel-button {

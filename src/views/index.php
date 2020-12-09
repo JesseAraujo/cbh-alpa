@@ -1,9 +1,8 @@
 <?php
 require '../components/header.php';
-require '../components/nav.php';
 ?>
 
-<div class="content">
+<div class="container content">
 
 
     <!--
@@ -30,8 +29,6 @@ ULTIMAS NOTÍCIAS
 
                 <div class="col-md-3">
                     <?php
-                    require '../components/pesquisa.php';
-
                     require '../components/barralateral.php';
                     ?>
                 </div>
