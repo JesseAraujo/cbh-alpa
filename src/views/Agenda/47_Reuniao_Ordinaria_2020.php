@@ -52,7 +52,7 @@ CONTEUDO
             <p>A Presidente do Comitê da Bacia Hidrográfica do Alto Paranapanema, no uso de suas atribuições legais, vem CONVOCAR Vossa Senhoria para participar da 47ª Reunião Ordinária
                 do Comitê da Bacia Hidrográfica do Alto Paranapanema CBH-ALPA, conforme programação abaixo:</p>
 
-            <div class="not">
+            <div class="data-evento">
                 <p><span>Data:</span> 28 de julho de 2020</p>
                 <p><span>Horário:</span> 10h</p>
                 <p><span>Local:</span> Videoconferência</p>
@@ -60,7 +60,7 @@ CONTEUDO
 
             <p>Caso deseja participar como convidado, envie um e-mail para <a href="mailto:cbhalpa@gmail.com?Subject=47%20Reuniao%20Ordinaria%20-%20Convidado">cbhalpa@gmail.com</a></p>
 
-            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px; font-family: LiberationSans-Regular;">
+            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
                 PAUTA DA REUNIÃO
             </h3>
 
@@ -78,14 +78,14 @@ CONTEUDO
             </ul>
 
             <!-- DOCUMENTOS -->
-            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px; font-family: LiberationSans-Regular;">
+            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
                 DOCUMENTOS
             </h3>
             <a class="icone" href="public/pdf/Oficios/2020/Of. 22 2020 CBH-ALPA - Reunião Plenária Itapetininga - 28.07.2020.pdf" target="new">Convocação</a>
 
 
             <!-- VIDEO DA GRAVAÇÃO DA REUNIÃO -->
-            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px; font-family: LiberationSans-Regular;">
+            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
                 GRAVAÇÃO
             </h3>
 

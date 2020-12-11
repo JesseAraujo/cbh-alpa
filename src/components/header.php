@@ -35,28 +35,31 @@
   <header>
     <div class="container">
 
-      <div class="header">
-        <a href="/">
-          <img src="src/assets/images/logonav.png" width="80" height="50" alt="">
-        </a>
-
-        <?php
-        require '../components/pesquisa.php';
-        ?>
-
-        <div class="acessibilidade">
+      <div class="acessibilidade">
+        <div class="container">
           <div class="acessibilidade-button">
+            <button onClick="fonte('reset');"><i class="fa fa-refresh" aria-hidden="true"></i></button>
             <button onClick="fonte('a');">A+</button>
             <button onClick="fonte('d');">A-</button>
           </div>
         </div>
       </div>
 
+      <div class="header">
+        <a href="/">
+          <img src="src/assets/images/logonav.png" width="90" height="60" alt="">
+        </a>
+
+        <?php
+        require $_SERVER['DOCUMENT_ROOT'] . '/src/components/pesquisa.php';
+        ?>
+      </div>
+
 
     </div>
 
     <?php
-    require '../components/nav.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/src/components/nav.php';
     ?>
 
   </header>

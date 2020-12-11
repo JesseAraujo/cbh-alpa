@@ -51,15 +51,15 @@ CONTEUDO
             <p>Prezado (a) Senhor (a):</p>
             <p>Cumprimentando Vossa Senhoria, servimo-nos do presente para convocá-lo (a) a participar da <strong>Reunião da Conjunta com todas as Câmaras Técnicas</strong>, conforme programação abaixo:</p>
 
-            <div class="not">
+            <div class="data-evento">
                 <p><span>Data:</span> 10 de novembro de 2020 (quarta-feira)</p>
                 <p><span>Horário:</span> 09:00 às 11:30h</p>
-                <p><span>Local:</span> Videoconferência</p> <a href="https://meet.google.com/idv-xsmt-pcm">PARTICIPAR</a>
+                <p><span>Local:</span> Videoconferência</p> <a href="https://meet.google.com/idv-xsmt-pcm">PARTICIPAR ON-LINE</a>
             </div>
 
             <p>Caso deseja participar como convidado, envie um e-mail para <a href="mailto:cbhalpa@gmail.com?Subject=47%20Reuniao%20Ordinaria%20-%20Convidado">cbhalpa@gmail.com</a></p>
 
-            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px; font-family: LiberationSans-Regular;">
+            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
                 PAUTA DA REUNIÃO
             </h3>
 
@@ -70,7 +70,7 @@ CONTEUDO
 
 
             <!-- DOCUMENTOS -->
-            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px; font-family: LiberationSans-Regular;">
+            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
                 DOCUMENTOS
             </h3>
             <a class="icone" href="public/pdf/Oficios/2020/Of. 31 2020 CBH-ALPA - Reunião CT-Planejamento e Institucional - 10.11.2020.pdf" target="new">Convocação</a>
@@ -78,7 +78,7 @@ CONTEUDO
 
 
             <!-- VIDEO DA GRAVAÇÃO DA REUNIÃO -->
-            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px; font-family: LiberationSans-Regular;">
+            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
                 GRAVAÇÃO
             </h3>
 

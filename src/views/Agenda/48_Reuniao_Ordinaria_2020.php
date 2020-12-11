@@ -52,7 +52,7 @@ CONTEUDO
             <p>A Presidente do Comitê da Bacia Hidrográfica do Alto Paranapanema, no uso de suas atribuições legais, vem CONVOCAR Vossa Senhoria para participar da <strong>48ª Reunião Ordinária
                     do Comitê da Bacia Hidrográfica do Alto Paranapanema CBH-ALPA</strong>, conforme programação abaixo:</p>
 
-            <div class="not">
+            <div class="data-evento">
                 <p><span>Data:</span> 18 de novembro de 2020 </p>
                 <p><span>Horário:</span> 10h</p>
                 <p><span>Local:</span> Videoconferência <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTdiN2UzNmEtMDNiZi00OTcyLThmNGUtNTlmNmRkMTA3NzA3%40thread.v2/0?context=%7b%22Tid%22%3a%223a78b0cd-7c8e-4929-83d5-190a6cc01365%22%2c%22Oid%22%3a%22ecf38584-197e-4161-8528-5805416e5d72%22%7d" target="_blanck">PARTICIPAR ON-LINE</a> </p>
@@ -60,7 +60,7 @@ CONTEUDO
 
             <p>Caso deseja participar como convidado, envie um e-mail para <a href="mailto:cbhalpa@gmail.com?Subject=48%20Reuniao%20Ordinaria%20-%20Convidado">cbhalpa@gmail.com</a></p>
 
-            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px; font-family: LiberationSans-Regular;">
+            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
                 PAUTA DA REUNIÃO
             </h3>
 
@@ -79,14 +79,14 @@ CONTEUDO
             </ul>
 
             <!-- DOCUMENTOS -->
-            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px; font-family: LiberationSans-Regular;">
+            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
                 DOCUMENTOS
             </h3>
             <a class="icone" href="public/pdf/Oficios/2020/Of. 33 2020 CBH-ALPA - Reunião Plenária Itapetininga - 18.11.2020.pdf" target="new">Convocação</a>
 
 
             <!-- VIDEO DA GRAVAÇÃO DA REUNIÃO -->
-            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px; font-family: LiberationSans-Regular;">
+            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
                 GRAVAÇÃO
             </h3>
 

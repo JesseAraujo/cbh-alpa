@@ -3,8 +3,10 @@ function fonte(e) {
     var fonte = elemento.css('font-size');
     if (e == 'a') {
         elemento.css("fontSize", parseInt(fonte) + 1);
-    } else if ('d') {
+    } else if (e == 'd') {
         elemento.css("fontSize", parseInt(fonte) - 1);
+    } else if ('reset') {
+        elemento.css("fontSize", "60%");
     }
 }
 

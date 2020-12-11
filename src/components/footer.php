@@ -1,80 +1,55 @@
-<section>
-  <footer>
+<footer>
+  <div class="container">
 
-    <div class="social">
-      <a href="https://www.facebook.com/CBHALPA" target="new">
-        <i class="fa fa-facebook face" title="Facebook"></i>
-      </a>
-      <a href="mailto:cbhalpa@gmail.com">
-        <i class="fa fa-envelope envelo" title="E-mail"></i>
-      </a>
-    </div>
+    <div class="adress-locate">
 
-    <div class="footer">
+      <div class="item-adress">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <div class="label">
+          <p>Av. São Sebastião, 125 - JD. Europa</p>
+          <h2>Piraju/SP</h2>
+        </div>
+      </div>
 
-      <div class="container">
-        <div class="row">
+      <div class="item-adress">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <div class="label">
+          <h2>14 3351-2599</h2>
+        </div>
+      </div>
 
-          <div class="col-md-2">
-            <div class="menuFooter">
-
-              <img src="src/assets/images/logo.png" class="logo-footer" />
-
-              <a class="itemFot" href="/">Início</a>
-              <a class="itemFot" href="Historia">História</a>
-              <a class="itemFot" href="http://www.sigrh.sp.gov.br/cbhalpa/representantes">Representantes</a>
-              <a class="itemFot" href="Agenda-CBH-ALPA">Agenda ALPA</a>
-              <a class="itemFot" href="Contato">Contato</a>
-            </div>
-          </div>
-
-          <div class="col-md-2">
-            <div class="menuFooter">
-
-              <h2>Documentos</h2>
-
-              <a class="itemFot" href="Documentos/Deliberacoes">Deliberações</a>
-              <a class="itemFot" href="Documentos/Atas">Atas</a>
-              <a class="itemFot" href="pdf/Estatuto.pdf">Estatuto</a>
-              <a class="itemFot" href="../../public/pdf/Plano da Bacia Hidrográfica do Alto Paranapanema.pdf">Plano de Bacia</a>
-            </div>
-          </div>
-
-          <div class="col-md-5">
-            <div class="menuFooter">
-
-              <h2>-</h2>
-
-              <a class="itemFot" href="Documentos/Deliberacoes">Fehidro</a>
-              <a class="itemFot" href="../Cobranca/">Cobrança Alpa</a>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="menuFooter">
-
-              <h2>Contato</h2>
-
-              <h3>14 3351-2599</h3>
-              <hr>
-              <p>Av. São Sebastião, 125</p>
-              <p>18.800-656 / Piraju-SP</p>
-            </div>
-          </div>
-
-
+      <div class="item-adress">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <div class="label">
+          <a href="mailto:cbhalpa@gmail.com?Subject=Contato">cbhalpa@gmail.com</a>
         </div>
       </div>
 
     </div>
 
-    <!-- Copyright -->
-    <div class="copyright">
-      <label>© 1996 / <?php echo date("Y") ?> - Todos os direitos reservados <br> CBH-ALPA: Comitê da Bacia Hidrográfica do Alto Paranapanema </label> <br> <span class='dev'> <a href="https://jessebrisola.com.br/" target="_blank"> Desenvolvido por: Jessé Brisola </a> </span>
+    <div class="about">
+      <div class="title-about">
+        CBH-ALPA - UGRHI-14
+      </div>
+      <p>
+        A UGRHI-14 é a maior do Estado de São Paulo, com 22.738,2 km² de área territorial, representando 21,3% do território da Bacia do Rio Paranapanema.
+      </p>
+
+      <div class="social">
+        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      </div>
     </div>
 
-  </footer>
-</section>
+  </div>
+
+
+
+</footer>
+
+<!-- Copyright -->
+<div class="copyright">
+  <label>© 1996 / <?php echo date("Y") ?> - Todos os direitos reservados <br> CBH-ALPA: Comitê da Bacia Hidrográfica do Alto Paranapanema </label> <br> <span class='dev'> <a href="https://jessebrisola.com.br/" target="_blank"> Desenvolvido por: Jessé Brisola </a> </span>
+</div>
 
 
 
@@ -83,7 +58,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
 
 <script type="text/javascript" src="../../public/scripts/postBD.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

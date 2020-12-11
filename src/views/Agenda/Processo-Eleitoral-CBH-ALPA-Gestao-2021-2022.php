@@ -1,6 +1,5 @@
 <?php
 require '../../components/header.php';
-require '../../components/nav.php';
 ?>
 
 
@@ -85,6 +84,12 @@ CONTEUDO
                 Para maiores informações e/ou esclarecimentos, estamos disponíveis pelo telefone (14) 3351.2599 ou por meio do endereço
                 eletrônico <a href="mailto:cbhalpa@gmail.com?Subject=Eleicao">cbhalpa@gmail.com</a>
             </p>
+
+            <!-- DOCUMENTOS -->
+            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
+                INFORMATIVO
+            </h3>
+            <a class="icone" href="public/pdf/Informativo - CBH-ALPA.pdf" target="new">Informativo - CBH-ALPA</a>
 
         </div>
         <!--FIM CONTAINER-->

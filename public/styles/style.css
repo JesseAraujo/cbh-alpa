@@ -19,6 +19,7 @@
 
         --color-bg-primary: #ffffff;
         --color-bg-secundary: #EFF1F2;
+        --color-bg-body: #ffffff;
 
         --color-bg-button: #276274;
         --color-secundary-button: #466c81;
@@ -32,9 +33,11 @@
 
         --color-link-hover: #071019;
 
-        --color-footer: #2b2b2b;
+        --color-footer: #223035;
 
         --font-primary:'Roboto', sans-serif;
+
+        --color-bg-border: #4f7685;
     }
 
     * {
@@ -50,6 +53,10 @@
         font-family: var(--font-primary);
         text-align: justify;
         color: var(--color-text-primary);
+    }
+
+    body {
+        background-color: var(--color-bg-body);
     }
 
     a {
@@ -112,12 +119,20 @@
         margin-bottom: 20px;
     }
 
+    .container {
+        padding: 0 40px;
+    }
+
+    .border {
+        border: 1px solid var(--color-bg-border);
+    }
+
 
 
 /*
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 ICONES
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 */
 
     .icone,
@@ -165,23 +180,46 @@ ICONES
         background-image: url(../../src/assets/images/icon/down.png);
     }
 
+/*
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+*/ 
     .content {
-        margin-top: 130px;
+        margin: 162px auto 100px;
     }
 
+/*
+---------------------------------------------------------------------
+BOTÕES
+---------------------------------------------------------------------
+*/   
+    button[type="button"],
+    button[type="submit"]{
+        background-color: var(--color-bg-button); 
+        width: 100%;
+        border-radius: 0;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        padding: 14px;
+        border: none; 
+        color: var(--color-text-white); 
+    }
+
+    button[type="button"]:hover,
+    button[type="submit"]:hover{ 
+        background-color: var(--color-secundary-button);  
+        transition: 400ms;   
+    }
     
 /*
--------------------------------------------------------------------------------
-TOP
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
+HEADER
+---------------------------------------------------------------------
 */  
-
     header{
         z-index: 999;
         width: 100%;
-
-        padding-top: 30px;
-
         position: fixed; 
         background-color: var(--color-bg-primary);
 
@@ -190,17 +228,35 @@ TOP
 
     header .header {
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 3fr;
     }
 
-    .acessibilidade .acessibilidade-button{        
-        color: var(--color-text-secundary);
+    header .header img {
+        margin-top: 50px;
+    }
+
+    header .header img:hover{
+        opacity: 0.5;
+        transition: 100ms;
+    }
+    
+/*
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+*/ 
+    .acessibilidade {
+        position: relative;
+    }
+
+    .acessibilidade .acessibilidade-button{  
         position: absolute;
-        right: 21%;    
+        right: 0;    
+        top: 0;
     }    
 
     .acessibilidade .acessibilidade-button button{        
-        background-color: var(--color-bg-primary);
+        background-color: var(--color-bg-secundary);
         border: none;
         width: 40px;
         height: 40px;
@@ -209,68 +265,153 @@ TOP
     } 
 
     .acessibilidade .acessibilidade-button button:hover{        
-        background-color: var(--color-bg-secundary);
-        color: var(--color-text-primary);
+        background-color: var(--color-bg-button);
+        color: var(--color-text-white);
     } 
 
+/*
+---------------------------------------------------------------------
+PESQUISA
+---------------------------------------------------------------------
+*/      
+    .busca {
+         width: 100%;
+         position: relative;
+
+         right: 15px;
+
+         margin-top: 50px;
+    }
+
+
+    .busca button {
+        background-color: var(--color-bg-primary);
+        border-radius: 0;
+        border: 1px solid var(--color-bg-secundary);
+    }
+
+    .busca input[type="search"] {	
+        border: 1px solid var(--color-bg-secundary);
+        border-right: none;
+
+        font-size: 1.3rem;
+        border-radius: 0;
+
+        padding: 15px;
+    }
+
+
 
 /*
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 NAVBAR
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 */
-    nav{       
-        background-color: #ffffff;
-        text-align: center;    
-    }
-
-    nav li{
-        text-transform: uppercase;
-    }
-
-    
-
-    /*----------- NAV PAGES*/
-    nav a{
-        margin-left: 10px; 
-        font-size: 1.3rem;    
-    }
-    
-
-    .nav nav{
-        border-bottom: 1px solid #f3f3f3; 
-        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-
-        padding-bottom:20px; 
-
-        text-transform: uppercase; 
-
+    .menu{       
+        background-color: var(--color-bg-primary); 
         width: 100%;
-        text-align: center;
+        height: 50px;
 
-        z-index: 998;
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
 
-        position: fixed;
+        position: relative;
     }
 
-    .nav .navbar-nav{         
-        width: 100%;           
+    .menu .nav {
+        width: 100%;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
-    .nav .nav-item {  
+    .menu a {
+        padding: 5px;
+        display: block;
+        text-decoration: none;
+
+        font-size: 1.3rem;
+
         color: var(--color-text-primary);
-        padding: 0 4px;            
     }
 
-    .nav .nav-item:hover { 
-        color: var(--color-active); 
+    .menu ul {
+        list-style: none;
+        position: relative;
     }
 
+    .menu ul li{
+        text-transform: uppercase;
+        margin-left: 20px;
+        float: left;
+        padding-bottom: 20px;
+    }
+
+    .menu ul li:hover {
+        border-bottom: 2px solid var(--color-bg-button);
+    }
+
+    .menu ul ul {
+        position: absolute;
+        visibility: hidden;        
+    }
+
+    .menu ul li:hover ul {
+        visibility: visible;
+        background-color: var(--color-bg-secundary); 
+        
+        top: 50px;
+    }
+
+    .menu ul li:hover ul li {
+        margin: 0;  
+        width: 180px;
+        padding: 0 10px;
+    }
+
+    .menu ul li:hover ul li:hover {
+        background-color: var(--color-bg-button); 
+        border-bottom: 0;
+    }
+
+    .menu ul li:hover ul li:hover a{
+        color: var(--color-text-white);
+    }
+
+    .menu ul ul li {
+        float: none;
+    }
+
+    .menu ul li:hover ul ul {
+        position: absolute;
+        visibility: hidden;
+
+        left: 180px;
+        top: 56px;
+    }
+
+    .menu ul  li:hover ul li:hover ul {
+        visibility: visible;
+        background-color: var(--color-bg-secundary);
+    }   
+
+    .menu ul  li:hover ul li:hover ul a{
+        color: var(--color-text-primary);
+    } 
+    
+    .menu ul li:hover ul li:hover ul li:hover {
+        background-color: var(--color-bg-button); 
+        border-bottom: 0;
+    }
+
+    .menu ul li:hover ul li:hover ul li:hover a{
+        color: var(--color-text-white);
+    }
 
 /*
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 BREADCRUMB
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 */
     .mapaSite{                
         text-transform: uppercase;
@@ -297,9 +438,9 @@ BREADCRUMB
     }
 
 /*
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 CAROUSEL
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 */    
     .carousel{
         margin-bottom: 60px; 
@@ -337,200 +478,26 @@ CAROUSEL
         background-color: var(--color-bg-button);
     }
 
-
     .carousel button.carousel-button:hover {
         font-weight: 600;
         transition: 400ms;
-    }
-  
-/*
--------------------------------------------------------------------------------
-PESQUISA
--------------------------------------------------------------------------------
-*/      
-    .pesquisa {				
-        width: 100%;
-        font-size: 1.3rem;
-
-        padding: 15px; 
-        border-radius: 0;
-    }
-
-    .busca {
-        padding: 0;
-        margin-bottom: 20px;                		
-    }
-
-    .busca button {
-        background-color: var(--color-bg-primary);
-        border-radius: 0;
-        border: 1px solid var(--color-bg-secundary);
-    }
-
-    #busca {
-        border: 1px solid var(--color-bg-secundary);
-        border-right: none;
-    }
+    }  
 
 
 /*
------------------------------
-BOTÕES
------------------------------
-*/   
-    button[type="button"],
-    button[type="submit"]{
-        background-color: var(--color-bg-button); 
-        width: 100%;
-        border-radius: 0;
-        text-transform: uppercase;
-        font-size: 1.3rem;
-        padding: 14px;
-        border: none; 
-        color: var(--color-text-white); 
-    }
-
-    button[type="button"]:hover,
-    button[type="submit"]:hover{ 
-        background-color: var(--color-secundary-button);  
-        transition: 400ms;   
-    }
-
-
-/*
--------------------------------------------------------------------------------
-ULTIMAS NOTICIAS
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
+MAIN
+---------------------------------------------------------------------
 */ 
-    .ultimaNoticia label{
-        text-transform: uppercase;
-        font-size: 1.5rem; 
-
-        color: var(--color-text-primary);      
-    }
-
-    .ultimaNoticia {
-        text-transform: uppercase;
-        font-family: var(--font-secondaray-bold);        
-        color: var(--color-text-secundary); 
-
-        font-size: 3.5rem;           
-    }
-
-    .ultimaNoticia::after{
-        content: "";
-
-        margin-top: 1px;
-
-        width: 150px;
-
-        display: block;
-        position: relative;
-
-        border-bottom: 4px solid var(--color-bg-button);
-    }
-
-    .noticias{
-        margin: 60px 0;
-    }
-
-    .agenda{
-        margin-top: 20px;
+    main {
+        margin: 30px 0;
     }
 
 
 /*
------------------------------
-CARDS - index
------------------------------
-*/
-    .card {
-        border-radius: 0;
-        height: 100%;
-        width: 100%;
-        margin-bottom: 100px;
-
-        position: relative;
-    }
-
-
-    .card-top {
-        padding: 15px 10px;
-        background-color: var(--color-bg-secundary);
-    }
-
-    .card-title {
-        text-transform: uppercase;
-        font-size: 1.5rem;
-        text-align: center;
-
-        font-weight: 700;
-
-        margin: 0;
-    }
-
-    .card-body {
-        height: auto;
-    }
-
-    .documentos .card .card-body {
-        height: 100%;
-    }
-
-    .card-body.card-text{
-        text-align: justify;    
-    }
-
-    .card-date-post {
-        font-size: 0.9rem;
-        padding: 5px 10px 5px 10px;
-        color: var(--color-text-secundary);
-    }
-
-
-    /*------ Link ----*/
-    .card > a.btn {
-        background-color: var(--color-bg-button); 
-        width: 100%;
-        border-radius: 0;
-        text-transform: uppercase;
-        font-size: 1.3rem;
-        padding: 14px;
-        border: none; 
-        color: var(--color-text-white);
-
-        position: absolute;
-        bottom: 0;
-        
-    }
-
-    .card > a.btn:hover {        
-        background-color: var(--color-secundary-button);  
-        transition: 400ms;              
-    } 
-
-
-    /*----------- TEXTO "RESULTADO EM NOSSO SISTEMA POR"*/
-    .resulPesquisa{
-        font-size: 1.2rem;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-    }
-
-    .resulPesquisa span{
-        font-size: 1.6rem;
-        font-weight: bold;
-    }
-
-    .table .card {
-        border: none;
-    }
-
-
-/*
--------------------------------------------------------------------------------
-TITULO PAGES
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
+TITULOS
+---------------------------------------------------------------------
 */  
     .tituloPage label{
         font-size: 1.5rem;
@@ -562,27 +529,245 @@ TITULO PAGES
         color: #0C394B;
     }
 
+/*
+---------------------------------------------------------------------
+CARDS DE NOTÍCIAS - INDEX E AGENDA
+---------------------------------------------------------------------
+*/ 
+    .card {
+        border-radius: 0;
+        border-color: var(--color-bg-secundary);
+
+        height: 100%;
+        width: 99%;
+        margin-bottom: 100px;
+
+        position: relative;
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+    }   
+
+    .card-no-shadow {
+        border-radius: 0;
+        border-color: var(--color-bg-secundary);
+
+        height: 100%;
+        width: 99%;
+        margin-bottom: 100px;
+
+        position: relative;
+    } 
+
+    .card .card-top,
+    .card-no-shadow .card-top {
+        padding: 15px 10px;
+        border-radius: 0;
+        background-color: var(--color-bg-secundary);
+    }    
+
+    .card .card-title,
+    .card-no-shadow .card-title {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        text-align: center;
+
+        font-weight: 700;
+
+        margin: 0;
+    }
+
+    .card .card-body 
+    .card-no-shadow .card-body {
+        height: auto;
+    }
+
+    .card .documentos .card-body,
+    .card-no-shadow  .documentos .card-body {
+        height: 100%;
+    }
+
+    .card .card-body.card-text,
+    .card-no-shadow .card-body.card-text {
+        text-align: justify;    
+    }
+
+    .card .card-date-post,
+    .card-no-shadow .card-date-post {
+        font-size: 0.9rem;
+        padding: 5px 10px 5px 10px;
+        color: var(--color-text-secundary);
+    }
+
+
+/*
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+*/
+    .card > a.btn,
+    .card-no-shadow > a.btn {
+        background-color: var(--color-bg-button); 
+        width: 100%;
+        border-radius: 0;
+
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        color: var(--color-text-white);
+
+        padding: 14px;
+
+        border: none; 
+
+        position: absolute;
+        bottom: 0;        
+    }
+
+    .card > a.btn:hover,
+    .card-no-shadow > a.btn:hover {        
+        background-color: var(--color-secundary-button);  
+        transition: 400ms;              
+    } 
+
+
+/*
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+*/
+    .group-buttons {
+        margin: 30px 0 50px;
+    }
+
+    .group-buttons .links-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        align-items: center;        
+    }
+
+    .group-buttons .links-buttons button {
+        background-color: var(--color-bg-secundary);
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+
+        height: 100px;
+
+        border: 0;
+        border-radius: 0;
+
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .group-buttons .links-buttons button:hover {
+        border: 2px solid var(--color-bg-button);
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
+        background-color: var(--color-bg-button); 
+
+        position: relative;
+        animation: zoom 100ms ease-in-out;
+            -webkit-animation-fill-mode: forwards; 
+    }
+
+    .group-buttons .links-buttons button i {
+        font-size: 2rem;
+        color: var(--color-footer);
+    }
+
+    .group-buttons .links-buttons button:hover i {
+        color: var(--color-bg-primary);
+    }
+
+    .group-buttons .links-buttons button h2 {
+        max-width: 120px;
+        margin: 0 auto;
+
+        font-size: 1.4rem;
+        text-transform: uppercase;
+
+        margin-top: 10px;
+
+        color: var(--color-footer);
+    }
+
+    .group-buttons .links-buttons button:hover h2 {
+        color: var(--color-bg-primary);
+    }
+
+
+/*
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+*/
     .icones-orgaos {
         margin: 60px 0;
+    }
+    
+    .icones-orgaos a {
+        margin-left: 10px;
     }
 
     .icones-orgaos a:hover {
         opacity: 0.7;
+    }  
+
+
+/*
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+*/
+/*----------- TEXTO "RESULTADO EM NOSSO SISTEMA POR"*/
+    .resulPesquisa{
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .resulPesquisa span{
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .table .card {
+        border: none;
     }
 
 /*
--------------------------------------------------------------------------------
-HISTÓRIA
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
+PAGINAÇÃO
+---------------------------------------------------------------------
 */ 
-    .historia{
-        padding: 0 18px 0 18px;
+    .page-item {
+        background-color: var(--color-bg-secundary);
     }
 
-/*
--------------------------------------------------------------------------------
+    .page-item a{
+        background-color: var(--color-bg-secundary);
+        color: var(--color-link-hover);
 
--------------------------------------------------------------------------------
+        border-radius: 0;
+        border: 0;
+    }
+
+    .page-item a:hover{
+        background-color: var(--color-bg-primary);
+        color: var(--color-footer);
+
+        transition: 400ms;
+    }
+
+    .page-item{
+        border-radius: 0;
+        border: 0;
+    }
+
+
+/*
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
 */  
 
     .button-esconde-lista {
@@ -623,34 +808,39 @@ HISTÓRIA
         opacity: 0.8;
     }
 
+/*
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+*/
+
     .sigrh{
         font-size: 1rem;
-        margin-top: 30px;
     }
 
 
 /*
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 */
-    .not{        
+    .data-evento{        
         margin-top: 30px;
         margin-bottom: 30px; 
         
         position: relative;
     }
 
-    .not span{ 
+    .data-evento span{ 
         font-family: var(--font-secondaray-bold);
         text-transform: uppercase;
     }
 
-    .not p{
+    .data-evento p{
         line-height: 1;
     }
 
-    .not a{
+    .data-evento a{
         padding: 10px 20px;
 
         background-color: var(--color-bg-button);
@@ -663,11 +853,16 @@ HISTÓRIA
         text-transform: uppercase;
     }
 
-    .not a:hover{
+    .data-evento a:hover{
         background-color: var(--color-secundary-button);
         transition: 400ms;
     }
 
+/*
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+*/
     .assinaturaComite{
         margin-top: 70px;
         margin-bottom: 100px;
@@ -681,38 +876,11 @@ HISTÓRIA
     }
 
 
-/*
--------------------------------------------------------------------------------
-PAGINAÇÃO
--------------------------------------------------------------------------------
-*/ 
-    .page-item a{
-        background-color: var(--color-bg-primary);
-        color: var(--color-link-hover);
-
-        border-radius: 0;
-
-        margin: 4px;
-        border: 0;
-    }
-
-    .page-item a:hover{
-        background-color: var(--color-bg-button);
-        color: var(--color-text-white);
-
-        transition: 400ms;
-    }
-
-    .page-item{
-        border-radius: 0;
-        border: 0;
-    }
-
 
 /*
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 ITEM
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 */ 
     .item{
         list-style:none;
@@ -725,173 +893,131 @@ ITEM
         margin-bottom: 15px;
     }        
 
-/*------  SOCIAL ------------*/
-    .social {
-        position: absolute;
-        top: -25px;
-        right: 20%;
-        z-index: 99;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        border: 4px solid #ffffff;
-        background-color: var(--color-bg-primary);
-    }
-
-    .social a{
-        text-decoration:none; 
-    }
-
-    .social .face{
-        background-color: rgb(65, 96, 182); 
-        color: var(--color-text-white);
-
-        font-size: 2rem;       
-        cursor: pointer;         
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        
-        width: 50px;
-        height: 50px;
-
-        transition:  400ms; 
-    }
-
-    .social .envelo{
-        background-color: #c05858;
-        color: var(--color-text-white);
-
-        font-size: 2rem;         
-        cursor: pointer; 
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        width: 50px;
-        height: 50px;
-
-        
-        transition:  400ms; 
-    }
-
-    .social a:hover {
-        position: relative;
-        animation: zoom 200ms ease-out;
-            -webkit-animation-fill-mode: forwards; 
-    }
-
-    .social .envelo:hover {
-        background-color: #f37777;        
-    }
-
-    .social .face:hover {        
-        background-color: rgb(96, 128, 216); 
-    } 
 
 /*
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 FOOTER
--------------------------------------------------------------------------------
+---------------------------------------------------------------------
 */   
     footer {
-        position: relative;
-    }
-
-    .footer{
         width: 100%;
-        height: 340px;
-        background-color:var(--color-footer);        
+        background-color:var(--color-footer);
+        
+        height: 400px;
     }
 
-    .footer span{
-        color:#D8D8D8;
-        font-size:10px;    
+    footer .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 400px;
     }
 
-    .footer .titleFooter{
-        color: #d0dee4;
+    footer .adress-locate {
+        color: #EFF1F2;
+        width: 300px;        
+    }
+
+    footer .container .adress-locate .item-adress {
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 30px;
+    }
+
+    footer .container .adress-locate .item-adress i {
         font-size: 2rem;
-        font-family: var(--font-secondaray-bold);
-        margin-top: 50px; 
-        text-transform: uppercase; 
+        margin-right: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50px;
+        height: 50px;
+
+        padding: 10px;
+
+        background-color: var(--color-bg-secundary);
+
+        border-radius: 50px;
+
+        color: var(--color-footer);
     }
 
-    .footer .titleFooter::after{
+    footer .container .adress-locate .item-adress .label p {
+        font-size: 1.5rem;
+        line-height: 5px;
+
+        font-weight: 200;
+    }
+
+    footer .container .adress-locate .item-adress .label a {
+        color: var(--color-text-white);
+        font-weight: 600;
+    }
+
+
+    footer .about {
+        width: 400px;
+    }
+
+    footer .about .title-about {
+        color: var(--color-text-white);
+        font-weight: 600;
+
+        font-size: 2rem;
+    }
+
+    footer .about .title-about::after{
         content: "";
-        margin: 8px 0 20px;
-        margin-top: 1px;
+        margin: 5px 0 20px;
         height: 0;
         display: block;
         position: relative;
-        width: 200px;
-        border-bottom: 3px solid #8B3636;
+        width: 40px;
+        border-bottom: 4px solid var(--color-text-white);
     }
 
-    .footer .logo-footer {
-        width: 120px;
-        margin-bottom: 20px;
-    }
-    
-    
-
-    /*------  MENU ------------*/
-    .menuFooter{
-        text-transform: uppercase;
-        line-height: 1;
-        margin-top: 70px;
+    footer .about p {
+        color: var(--color-text-white);
+        font-size: 1.3rem;
     }
 
-    .menuFooter a{
-        color: #D8D8D8;
-        font-size: 1.2rem; 
-        font-weight: 300; 
+    footer .about .social {
+        margin-top: 30px;
+    }
 
-        width: 100px;
-        
+    footer .about .social a {
         display: flex;
+        justify-content: center;
+        align-items: center;
 
-        line-height: 22px;
+        width: 50px;
+        height: 50px;
+
+        padding: 10px;
+
+        background-color: var(--color-bg-secundary);
     }
 
-    .menuFooter h2{
-        color: #D8D8D8;
-        font-size: 2rem;  
-        font-weight: 600;   
-
-        margin:  112px 0 12px;
+    footer .about .social i {
+        color: var(--color-footer);
+        font-size: 2rem;
     }
 
-    .menuFooter h3{
-        color: #D8D8D8;
-        font-size: 3rem; 
-        font-weight: 100; 
+    footer .about .social a:hover {
+        background-color: var(--color-bg-border);
     }
 
-    .menuFooter p{
-        color: #D8D8D8;
-        font-size: 1.2rem; 
-        font-weight: 300; 
-    }
+    
 
-    .menuFooter hr{
-         border-color: var(--color-secundary-button); 
-    }
 
-    .menuFooter a:hover{
-        color: var(--color-bg-secundary);
-        font-weight: 500;
-    }
- 
 /*
---------------------------------------------------------------------
+---------------------------------------------------------------------
 COPYRIGHT 
---------------------------------------------------------------------
+---------------------------------------------------------------------
 */    
     .copyright{
         text-align: center;
@@ -914,9 +1040,9 @@ COPYRIGHT
 
 
 /*
---------------------------------------------------------------------
+---------------------------------------------------------------------
 SETA - SUBIR TOPO
---------------------------------------------------------------------
+---------------------------------------------------------------------
 */   
 
     #subirTopo {
@@ -953,6 +1079,6 @@ SETA - SUBIR TOPO
     }
 
     to {
-        top: -10px;
+        top: -5px;
     }
 }

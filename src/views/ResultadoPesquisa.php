@@ -5,11 +5,6 @@ require '../components/nav.php';
 
 <div class="content">
 
-    <!--
---------------------------------------------------------
-BREADCRUMB
---------------------------------------------------------
--->
     <section>
         <div class="mapaSite">
             <div class="container">
@@ -23,47 +18,23 @@ BREADCRUMB
     </section>
 
 
-    <!--
---------------------------------------------------------
-TÍTULO DA PÁGINA
---------------------------------------------------------
--->
-    <section>
+    <div class="container">
+
         <div class="tituloPage">
-            <div class="container">
-                <label> RESULTADO DA PESQUISA</label>
-            </div>
+            <label> RESULTADO DA PESQUISA</label>
         </div>
-    </section>
 
 
-    <!--
---------------------------------------------------------
-CONTEUDO
---------------------------------------------------------
--->
-    <section>
-        <div class="container">
-            <?php
-            require '../components/pesquisaAgenda.php';
-            ?>
-        </div>
-    </section>
+        <?php
+        require '../controller/ResultadoPesquisa.php';
+        ?>
 
-
-    <?php
-    require '../controller/ResultadoPesquisa.php';
-    ?>
-
+    </div>
 </div>
 <!--content-->
 
 
-<!--
---------------------------------------------------------
-FOOTER
---------------------------------------------------------
--->
+
 <?php
 require '../components/footer.php';
 ?>
