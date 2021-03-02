@@ -6,7 +6,6 @@
  <a href="#sobre">Sobre</a> •
  <a href="#telas">Telas</a> •
  <a href="#tecnologias">Tecnologias</a> •  
- <a href="#executar">Executar</a> •  
  <a href="#autor">Autor</a>
 </p>
 
@@ -16,7 +15,7 @@ Site desenvolvido para o Comitêa Bacia Hidrográfica do Alto Paranapanema - CBH
 
 ## Telas
 
-<img src="src/assets/images/prints/home.png" width="700px;">
+<img src="src/assets/images/print/home.png" width="700px;">
 
 ---
 
