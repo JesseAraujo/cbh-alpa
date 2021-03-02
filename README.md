@@ -1,5 +1,6 @@
 <h2 align="center">
   CBH-ALPA
+  <img src="/public/print/logonav.png" width="500px;">
 </h2>
 
 <p align="center">
@@ -16,6 +17,8 @@ Site desenvolvido para o Comitêa Bacia Hidrográfica do Alto Paranapanema - CBH
 ## Telas
 
 <img src="/public/print/home.png" width="700px;">
+<img src="/public/print/agenda.png" width="700px;">
+<img src="/public/print/deliberacoes.png" width="700px;">
 
 ---
 
