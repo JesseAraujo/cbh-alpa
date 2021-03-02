@@ -6,12 +6,12 @@
             <h2>Agenda ALPA</h2>
         </button>
 
-        <button onclick="window.location.href='http://www.sigrh.sp.gov.br/cbhalpa/representantes';">
+        <button onclick="window.location.href='../Representantes';">
             <i class="fa fa-users" aria-hidden="true"></i>
             <h2>Representantes</h2>
         </button>
 
-        <button onclick="window.location.href='#'">
+        <button onclick="window.location.href='../Camaras-Tecnicas-CBH'">
             <i class="fa fa-sitemap" aria-hidden="true"></i>
             <h2>Câmaras Técnicas</h2>
         </button>

@@ -21,6 +21,8 @@
         --color-bg-secundary: #EFF1F2;
         --color-bg-body: #ffffff;
 
+        --color-bg-breadcrumb: #fafafa;
+
         --color-bg-button: #276274;
         --color-secundary-button: #466c81;
 
@@ -66,6 +68,8 @@
     a:hover{
         text-decoration: none; 
         color: var(--color-link-hover);
+
+        cursor: pointer;
     }
 
     span {
@@ -306,7 +310,16 @@ PESQUISA
 ---------------------------------------------------------------------
 NAVBAR
 ---------------------------------------------------------------------
-*/
+*/   
+
+    #bt_menu {
+        display: none;
+    }
+
+    label[for="bt_menu"] i{
+        display: none;
+    }
+
     .menu{       
         background-color: var(--color-bg-primary); 
         width: 100%;
@@ -333,6 +346,8 @@ NAVBAR
         font-size: 1.3rem;
 
         color: var(--color-text-primary);
+
+        cursor: pointer;
     }
 
     .menu ul {
@@ -349,6 +364,7 @@ NAVBAR
 
     .menu ul li:hover {
         border-bottom: 2px solid var(--color-bg-button);
+        cursor: pointer;
     }
 
     .menu ul ul {
@@ -418,7 +434,7 @@ BREADCRUMB
         font-size: 1rem;
 
         margin-bottom: 40px;
-        background-color: var(--color-bg-secundary);
+        background-color: var(--color-bg-breadcrumb);
 
         padding-top: 20px;
     }
@@ -434,7 +450,7 @@ BREADCRUMB
 
     .mapaSite .active{
         color: var(--color-active);
-        font-family: var(--font-secondaray-bold);
+        font-weight: 600;
     }
 
 /*
@@ -643,6 +659,13 @@ CARDS DE NOTÍCIAS - INDEX E AGENDA
         align-items: center;        
     }
 
+    .group-buttons .links-buttons-ct {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;        
+    }
+
     .group-buttons .links-buttons button {
         background-color: var(--color-bg-secundary);
         box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
@@ -659,7 +682,24 @@ CARDS DE NOTÍCIAS - INDEX E AGENDA
         text-align: center;
     }
 
-    .group-buttons .links-buttons button:hover {
+    .group-buttons .links-buttons-ct button {
+        background-color: var(--color-bg-secundary);
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+
+        height: 200px;
+
+        border: 0;
+        border-radius: 0;
+
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .group-buttons .links-buttons button:hover,
+    .group-buttons .links-buttons-ct button:hover {
         border: 2px solid var(--color-bg-button);
         box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
         background-color: var(--color-bg-button); 
@@ -669,12 +709,14 @@ CARDS DE NOTÍCIAS - INDEX E AGENDA
             -webkit-animation-fill-mode: forwards; 
     }
 
-    .group-buttons .links-buttons button i {
+    .group-buttons .links-buttons button i,
+    .group-buttons .links-buttons-ct button i {
         font-size: 2rem;
         color: var(--color-footer);
     }
 
-    .group-buttons .links-buttons button:hover i {
+    .group-buttons .links-buttons button:hover i,
+    .group-buttons .links-buttons-ct button:hover i  {
         color: var(--color-bg-primary);
     }
 
@@ -690,7 +732,20 @@ CARDS DE NOTÍCIAS - INDEX E AGENDA
         color: var(--color-footer);
     }
 
-    .group-buttons .links-buttons button:hover h2 {
+    .group-buttons .links-buttons-ct button h2 {
+        max-width: 250px;
+        margin: 0 auto;
+
+        font-size: 1.4rem;
+        text-transform: uppercase;
+
+        margin-top: 10px;
+
+        color: var(--color-footer);
+    }
+
+    .group-buttons .links-buttons button:hover h2,
+    .group-buttons .links-buttons-ct button:hover h2 {
         color: var(--color-bg-primary);
     }
 

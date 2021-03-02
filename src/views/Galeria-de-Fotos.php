@@ -1,6 +1,5 @@
 <?php
 require '../components/header.php';
-require '../components/nav.php';
 ?>
 
 <div class="content">
@@ -10,6 +9,7 @@ require '../components/nav.php';
         <div class="container">
             <ol class="breadcrumb mapaSite">
                 <li class="breadcrumb-item"><a href="/">Início</a></li>
+                <li class="breadcrumb-item"><a href="/">Mídias CBH</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Galeria de Fotos</li>
             </ol>
         </div>

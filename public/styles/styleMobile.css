@@ -1,32 +1,166 @@
 @media only screen and (max-width: 724px) {
-
-    
     .content {
         width: 90%;
+
+        margin-top: 180px;
     }
-    
-    .topolabel { 
+
+    .container {
+        padding: 0;
+    }
+
+/*
+---------------------------------------------------------------------
+HEADER
+---------------------------------------------------------------------
+*/  
+    header {
+        height: 175px;
+    }
+
+    header .header {
+        display: flex;
+    }  
+
+    header .header img {
+        margin-top: 20px;
+        margin-left: 20px;
+
+        margin-top: 50px;
+    }
+
+    /*
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+*/ 
+    .acessibilidade .acessibilidade-button{  
+        position: absolute;
+        right: 20px;    
+        top: 0;
+    }  
+
+/*
+---------------------------------------------------------------------
+PESQUISA
+---------------------------------------------------------------------
+*/      
+    .busca {
+         width: 180px;        
+         right: 35px;
+         top: 40px;
+
+         position: absolute;
+    }  
+
+/*
+---------------------------------------------------------------------
+NAVBAR
+---------------------------------------------------------------------
+*/
+    label[for="bt_menu"] i{
+        padding: 5px;
+        background-color: var(--color-bg-primary);
+        color: var(--color-bg-secundary);
+
         text-align: center;
+
+        font-size: 30px;
+
+        width: 50px;
+        height: 50px;
+
+        position: relative;
+        right: -15px;
+        top: 15px;
+
+
+        display: block;
+
+        cursor: pointer;
+        
+    }
+
+    #bt_menu:checked ~ .menu {
+        margin-left: 0;
+        height: auto;
     } 
 
-    .acessibilidade .acessibilidade-button{   
-        left: 20px;    
-    } 
+    .menu {        
+        text-align: center;       
+
+        margin-left: -110%;
+        transition: all .1s;
+    }
+
+    .menu .nav {
+        width: 100%;
+        height: auto;
+
+        justify-content: center;
+    }
+
+    .menu ul li {
+        width: 100%;
+        float: none;
+
+        margin: 0;
+    }
+
+    .menu ul li:hover {
+       border: 0;
+    }
+
+
+
+    .menu ul ul {
+        position: initial;
+        overflow: hidden;
+        max-height: 0;
+        transition: all .4s;
+    }
+
+    .menu ul li:hover ul {
+        height: auto;
+        max-height: 200px;
+        border: 0;
+
+        position: initial;
+    }
+
+    .menu ul li:hover ul li {
+        margin: 0;  
+        width: 400px;
+        padding: 0 20px;
+    }
+
+    .menu ul li:hover ul li:hover ul {
+        height: auto;
+        border: 0;
+
+        position: initial;
+    }
+
     
-    nav {
-        z-index: 999;
+
+
+/*
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+*/
+    .group-buttons .links-buttons {
+        grid-template-columns: 1fr 1fr;
+        
+        gap: 5px;
     }
 
-    .nav .navbar-nav {        
-        text-align: center;
-        padding-bottom: 50px;
+
+    .group-buttons .links-buttons-ct {
+        grid-template-columns: 1fr;
     }
 
-    .nav .nav-item:hover { 
-        border-bottom:none;
-        color: var(--color-active); 
-    }
-
+ 
     .slide {
         display: none;
     }
@@ -55,41 +189,61 @@
         right: 0;
     }
     
-    .footer {
+    footer {
         width: 100%;
         height: auto;
 
         padding-bottom: 50px;
     }
 
- 
-    .footer span {        
-        text-align: center;   
-    }
-
-    .social {        
-        top: -25px;
-        right: 5%;
-    }
-
-    .menuFooter {
-        text-align: center;
-    }
-
-    .menuFooter h2{
-        margin:  20px 0 12px;
-    }
-
-    .menuFooter a {
-        font-size: 1.2rem;
-        width: 100%;
-        
-        display: flex;
+    footer .container {
+        display: block;
         justify-content: center;
+        align-items: center;
+
+        height: auto;
+
+        padding: 20px;
+        
     }
+
+    footer .adress-locate {
+        color: #EFF1F2;
+        width: 100%;        
+    }
+
+    footer .container .adress-locate .item-adress {
+       width: 100%;
+       
+       display: block;
+       align-items: center;
+       justify-content: center;
+    }
+
+    footer .container .adress-locate .item-adress i {
+        font-size: 1.5rem;
+        width: 30px;
+        height: 30px;
+
+        padding: 20px;
+    }
+
+    footer .container .adress-locate .item-adress .label {
+        margin-top: 10px;
+    }
+
+
+    footer .about {
+        width: 100%;
+    }
+
+ 
 
     #subirTopo {
         z-index: 9999;
+
+        bottom: 10px;
+        right: 10px;
     }
    
 }
