@@ -1,5 +1,5 @@
 <h2 align="center">
-  <img src="/public/print/logonav.png" width="500px;">
+  <img src="/public/print/logonav.png" width="200px;">
 </h2>
 
 <p align="center">
