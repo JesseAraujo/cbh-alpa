@@ -13,10 +13,12 @@
 
 Site desenvolvido para o Comitêa Bacia Hidrográfica do Alto Paranapanema - CBH-ALPA.
 
+---
+
 ## Telas
 
-<img src="/public/print/home.png" width="700px;">
-<img src="/public/print/agenda.png" width="700px;">
+<img src="/public/print/home.png" width="700px;"> <br /> <p>
+<img src="/public/print/agenda.png" width="700px;"><br /> <p>
 <img src="/public/print/deliberacoes.png" width="700px;">
 
 ---
