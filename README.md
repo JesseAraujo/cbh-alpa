@@ -15,7 +15,7 @@ Site desenvolvido para o Comitêa Bacia Hidrográfica do Alto Paranapanema - CBH
 
 ## Telas
 
-<img src="src/assets/images/print/home.png" width="700px;">
+<img src="/public/print/home.png" width="700px;">
 
 ---
 
