@@ -190,7 +190,7 @@ ICONES
 ---------------------------------------------------------------------
 */ 
     .content {
-        margin: 162px auto 100px;
+        margin: 185px auto 100px;
     }
 
 /*
@@ -761,10 +761,11 @@ CARDS DE NOTÍCIAS - INDEX E AGENDA
     
     .icones-orgaos a {
         margin-left: 10px;
+        opacity: 0.7;
     }
 
     .icones-orgaos a:hover {
-        opacity: 0.7;
+        opacity: 1;
     }  
 
 
@@ -982,17 +983,17 @@ FOOTER
     }
 
     footer .container .adress-locate .item-adress i {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-right: 10px;
 
         display: flex;
         justify-content: center;
         align-items: center;
 
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
 
-        padding: 10px;
+        padding: 5px;
 
         background-color: var(--color-bg-secundary);
 
@@ -1002,15 +1003,19 @@ FOOTER
     }
 
     footer .container .adress-locate .item-adress .label p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 5px;
 
         font-weight: 200;
     }
 
+    footer .container .adress-locate .item-adress .label h2 {
+        font-size: 1.5rem;
+    }
+
     footer .container .adress-locate .item-adress .label a {
         color: var(--color-text-white);
-        font-weight: 600;
+        font-weight: 400;
     }
 
 
