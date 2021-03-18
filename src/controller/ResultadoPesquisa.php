@@ -1,5 +1,5 @@
 <?php
-require 'connect/connect.php';
+require '../config/db.php';
 
 //$busca = $_GET['busca']; //recebendo palavra digitada
 //$busca = $_GET['busca'];

@@ -562,7 +562,8 @@ CARDS DE NOTÍCIAS - INDEX E AGENDA
         box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
     }   
 
-    .card-no-shadow {
+    .card-no-shadow,
+    .card-video {
         border-radius: 0;
         border-color: var(--color-bg-secundary);
 
@@ -572,6 +573,20 @@ CARDS DE NOTÍCIAS - INDEX E AGENDA
 
         position: relative;
     } 
+
+    .card-video {
+        margin: 0 0 60px 0;
+        text-align: center;
+    }
+
+    .card-video p{
+        padding: 0 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+
+        color: var(--color-text-secundary);
+        font-weight: 600;
+    }
 
     .card .card-top,
     .card-no-shadow .card-top {
@@ -641,6 +656,18 @@ CARDS DE NOTÍCIAS - INDEX E AGENDA
         background-color: var(--color-secundary-button);  
         transition: 400ms;              
     } 
+
+
+    .new-post {
+        width: 80px;
+        padding: 5px 0;
+
+        text-align: center;
+
+        font-size: 0.5em;
+        background: rgb(189, 64, 19);
+        color: var(--color-text-white);
+    }
 
 
 /*

@@ -10,6 +10,18 @@
                     <h5 class='card-title'><?php echo $rows_not['titulo_not']; ?></h5>
                 </div>
 
+                <?php
+                $dt_atual        = date("Y-m-d"); // data atual
+                $timestamp_dt_atual     = strtotime($dt_atual); // converte para timestamp Unix
+
+                $dt_expira        = $rows_not['data_evento']; // data de expiração do anúncio
+                $timestamp_dt_expira    = strtotime($dt_expira); // converte para timestamp Unix
+
+                // data atual é maior que a data de expiração
+                if ($timestamp_dt_atual < $timestamp_dt_expira)
+                    echo "<div class='new-post'>Novo</div>";
+                ?>
+
                 <div class="card-date-post">
                     Postado em <?php echo $date; ?>
                 </div>

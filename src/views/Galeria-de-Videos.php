@@ -35,11 +35,8 @@ require '../components/header.php';
 
             ?>
 
-
                 <div class="col-md-4">
                     <?php
-
-
 
                     //separando nome do arquivo para fácil remoção do nome  
                     $path_parts = pathinfo($num);
@@ -49,11 +46,14 @@ require '../components/header.php';
                     $nome = $path_parts['filename'];
 
                     echo '
+                        <div class="card-video">
                             <video width="100%" controls>
                                 <source src="src/assets/videos/' . $nome . '.mp4" type="video/mp4">
                                 Your browser does not support HTML video.
                              </video>  
-                                    
+
+                             <p>' . $nome . '</p>
+                         </div>           
                         ';
                     ?>
                 </div>

@@ -1,6 +1,5 @@
 <?php
 require '../../components/header.php';
-require '../../components/nav.php';
 ?>
 
 

@@ -9,18 +9,18 @@
    <div class="carousel-inner">
 
      <div class="carousel-item active">
-       <a href="http://www.cobrancaagua.daee.sp.gov.br/publico/Login.aspx">
-         <img src="src/assets/images/carousel/9.png" class="d-block w-100" alt="Cobrança | Declaração de valores">
-       </a>
+       <img src="src/assets/images/carousel/2.png" class="d-block w-100" alt="CBH ALPA e você contra corona vírus">
      </div>
 
      <div class="carousel-item ">
-       <img src="src/assets/images/carousel/6.png" class="d-block w-100" alt="CBH ALPA - Processo Eleitoral">
+       <img src=" src/assets/images/carousel/6.png" class="d-block w-100" alt="CBH ALPA - Processo Eleitoral">
      </div>
 
-     <div class="carousel-item">
-       <img src="src/assets/images/carousel/2.png" class="d-block w-100" alt="CBH ALPA e você contra corona vírus">
+     <div class="carousel-item ">
+       <img src="src/assets/images/carousel/7.png" class="d-block w-100" alt="Bate Papo">
      </div>
+
+
 
 
 
