@@ -28,6 +28,9 @@ while ($rows_not = mysqli_fetch_assoc($sql)) {
             // data atual é maior que a data de expiração
             if ($timestamp_dt_atual < $timestamp_dt_expira) // true
                 echo "<div class='new-post'>Novo</div>";
+
+            if ($timestamp_dt_atual == $timestamp_dt_expira) // true
+                echo "<div class='now-post'>Hoje</div>";
             ?>
 
             <div class='card-body'>

@@ -88,12 +88,68 @@ CONTEUDO
                 DOCUMENTOS
             </h3>
             <a class="icone" href="src/assets/images/Live.png" target="new">Folder</a>
+            <a class="icone" href="public/pdf/Outros/Palestra com Profº Dr. Alexandre Camargo Martensen - CBH-ALPA 23-03-2021.pdf" target="new">Apresentação</a>
+
+
+
+            <!---->
+            <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
+                INSCRIÇÃO
+            </h3>
+
+            <!--------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <section>
+
+                <div class="rom">
+
+                    <!----FURMULÁRIO PARA INSCRIÇÃO---->
+                    <form>
+                        <!--label style="font-weight: bold; color: red; margin-bottom:30px;">INSCRIÇÕES ENCERRADAS</label-->
+                        <p style="margin-bottom: 30px;">Faça esse pequeno cadastro para emitir seu certificado.</p>
+
+                        <div class="form-row">
+
+                            <div class="col-md-6">
+                                <div class="col">
+                                    <label for="nome">NOME*</label>
+                                    <input type="text" name="nome" id="campo1" required autocomplete="nope" placeholder="Nome Completo" class="form-control" style="margin-bottom: 20px; width: 100%;" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="col">
+                                    <label for="cpf">CPF*</label>
+                                    <input type="text" name="cpf" id="campo2" maxlength="14" onkeypress="formatar('###.###.###-##', this);" required autocomplete="nope" placeholder="000.000.000-00" class="form-control" style="margin-bottom: 20px; width: 100%;" />
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <!--FIM form-row-->
+                    </form>
+
+                    <button style="margin-top: 30px;" type="submit" onclick="inserir_registo()">CONCLUIR</button>
+                </div>
+
+                <hr style="margin: 30px;">
+
+                <button type="submit" class="emitir" onclick="window.location.href='Emitir-Certificados'">
+                    Emitir certificado
+                </button>
+
+
+            </section>
 
 
             <!-- VIDEO DA GRAVAÇÃO DA REUNIÃO -->
             <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
                 GRAVAÇÃO
             </h3>
+
+            <video width="100%" controls>
+                <source src="src/assets/videos/Palestra com Profº Dr. Alexandre Camargo Martensen.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
 
 
 

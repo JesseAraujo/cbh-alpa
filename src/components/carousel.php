@@ -17,7 +17,7 @@
      </div>
 
      <div class="carousel-item ">
-       <img src="src/assets/images/carousel/7.png" class="d-block w-100" alt="Bate Papo">
+       <a href="https://www.facebook.com/CBHALPA"> <img src="src/assets/images/carousel/7.png" class="d-block w-100" alt="Facebook"> </a>
      </div>
 
 

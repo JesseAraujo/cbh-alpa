@@ -6,7 +6,6 @@ $senhaa = '';
 
 
 //$servidor = 'h50.servidorhh.com';
-//$servidor = 'ftp.cbhalpa.com.br';
 //$usuarioo = 'cbhalpac_jba';
 //$senhaa = 'jb@280694K';
 

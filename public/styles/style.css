@@ -658,7 +658,8 @@ CARDS DE NOTÍCIAS - INDEX E AGENDA
     } 
 
 
-    .new-post {
+    .new-post,
+    .now-post {
         width: 80px;
         padding: 5px 0;
 
@@ -667,6 +668,10 @@ CARDS DE NOTÍCIAS - INDEX E AGENDA
         font-size: 0.5em;
         background: rgb(189, 64, 19);
         color: var(--color-text-white);
+    }
+
+    .now-post {
+        background: rgb(19, 189, 33);
     }
 
 
@@ -891,12 +896,15 @@ PAGINAÇÃO
         opacity: 0.8;
     }
 
+    .emitir {
+        margin-top: 10px;
+    }
+
 /*
 ---------------------------------------------------------------------
 
 ---------------------------------------------------------------------
 */
-
     .sigrh{
         font-size: 1rem;
     }

@@ -36,7 +36,7 @@
       </p>
 
       <div class="social">
-        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/CBHALPA"><i class="fa fa-facebook" aria-hidden="true"></i></a>
       </div>
     </div>
 

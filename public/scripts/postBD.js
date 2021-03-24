@@ -12,13 +12,13 @@ function inserir_registo() {
         'campo7': $("#campo7").val()
     };
 
-    if ((document.getElementById("campo1").value == "") || (document.getElementById("campo2").value == "") || (document.getElementById("campo3").value == "") || (document.getElementById("campo4").value == "") || (document.getElementById("campo7").value == "")) {
+    if ((document.getElementById("campo1").value == "") || (document.getElementById("campo2").value == "")) {
         alert("Por favor, preencha os campos corretamente.");
     }
     else {
 
-        pageurl = 'http://localhost/control/postBD.php';
-        //pageurl = 'https://cbhalpa.com.br/control/postBD.php';
+        pageurl = 'http://localhost/controller/postBD.php';
+        //pageurl = 'https://cbhalpa.com.br/controller/postBD.php';
 
         //para consultar mais opcoes possiveis numa chamada ajax
         //http://api.jquery.com/jQuery.ajax/
