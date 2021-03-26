@@ -86,6 +86,11 @@ CONTEUDO
                 GRAVAÇÃO
             </h3>
 
+            <video width="100%" controls>
+                <source src="src/assets/videos/Eleição Segmento Municípios - 24-03-2021.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
+
 
 
         </div>

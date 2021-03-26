@@ -72,10 +72,7 @@ CONTEUDO
                     Aplicação de Recursos da Cobrança pelo Uso dos Recursos Hídricos na Unidade de
                     Gerenciamento e Recursos Hídricos Alto Paranapanema, referente aos valores arrecadados
                     exercício 2020, e estimados para 2021;</li>
-                <li> Deliberação CBH-ALPA nº 188 de 25 de março de 2021, que aprova a atualização
-                    do Plano de Ação e Programa de Investimentos 2021-2023, incluindo os recursos da cobrança
-                    exercício 2021;</li>
-                <li>– Deliberação CBH-ALPA nº 189 de 25 de março de 2021, que aprova diretrizes e
+                <li>Deliberação CBH-ALPA nº 188 de 25 de março de 2021, que aprova diretrizes e
                     critérios para fins de seleção e hierarquização dos investimentos ao FEHIDRO e dá outras
                     providências;</li>
                 <li>Divulgação e posse dos membros escolhidos para compor o biênio 2021/2022 do
@@ -98,6 +95,11 @@ CONTEUDO
             <h3 style="margin-top:50px; margin-bottom:20px; font-size: 15px; background-color: #dddddd; text-align: center; padding:15px;">
                 GRAVAÇÃO
             </h3>
+
+            <video width="100%" controls>
+                <source src="src/assets/videos/49 Reuniao Ordinaria Do Comite Da Bacia Hidrografica Do Alto Paranapanema.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
 
 
 
