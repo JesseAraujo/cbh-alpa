@@ -104,8 +104,7 @@ CONTEUDO
 
                     <!----FURMULÁRIO PARA INSCRIÇÃO---->
                     <form>
-                        <!--label style="font-weight: bold; color: red; margin-bottom:30px;">INSCRIÇÕES ENCERRADAS</label-->
-                        <p style="margin-bottom: 30px;">Faça esse pequeno cadastro para emitir seu certificado.</p>
+                        <label style="font-weight: bold; color: red; margin-bottom:30px;">INSCRIÇÕES ENCERRADAS</label>
 
                         <div class="form-row">
 
@@ -128,7 +127,7 @@ CONTEUDO
                         <!--FIM form-row-->
                     </form>
 
-                    <button style="margin-top: 30px;" type="submit" onclick="inserir_registo()">CONCLUIR</button>
+                    <button style="margin-top: 30px;" type="submit" onclick="alert('Impossível de realizar seu cadastro!')">CONCLUIR</button>
                 </div>
 
                 <hr style="margin: 30px;">

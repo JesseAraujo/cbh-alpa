@@ -1,8 +1,6 @@
 @media only screen and (max-width: 724px) {
     .content {
         width: 90%;
-
-        margin-top: 180px;
     }
 
     .container {
@@ -15,7 +13,8 @@ HEADER
 ---------------------------------------------------------------------
 */  
     header {
-        height: 175px;
+        height: 40px;
+        position: initial;
     }
 
     header .header {
@@ -61,7 +60,8 @@ NAVBAR
     label[for="bt_menu"] i{
         padding: 5px;
         background-color: var(--color-bg-primary);
-        color: var(--color-bg-secundary);
+        color: var(--color-secundary-button);
+
 
         text-align: center;
 
@@ -139,9 +139,7 @@ NAVBAR
         border: 0;
 
         position: initial;
-    }
-
-    
+    }   
 
 
 /*
@@ -150,9 +148,10 @@ NAVBAR
 ---------------------------------------------------------------------
 */
     .group-buttons .links-buttons {
-        grid-template-columns: 1fr 1fr;
-        
+        grid-template-columns: 1fr 1fr;        
         gap: 5px;
+
+        margin-top: 0;
     }
 
 
@@ -198,8 +197,6 @@ NAVBAR
 
     footer .container {
         display: block;
-        justify-content: center;
-        align-items: center;
 
         height: auto;
 

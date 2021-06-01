@@ -18,5 +18,5 @@ mysqli_set_charset($con, "utf8");
 
 //verificando conexão
 if (!$con) {
-	die('não conseguiu conectar: ' . mysqli_error($con));
+	die('não conseguiu conectar: ' . mysqli_error($conn));
 }
